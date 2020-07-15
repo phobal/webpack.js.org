@@ -15,7 +15,6 @@ export default class SidebarItem extends React.Component {
       <ul className={`${block}__anchors`}>
         {
           anchors.map((anchor, i) => {
-            anchor = this._handleAnchor(anchor);
             return (<li
               key={this._generateAnchorURL(anchor)}
               className={`${block}__anchor`}
