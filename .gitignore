@@ -12,3 +12,6 @@ package-lock.json
 internal-links.tap
 stats.json
 printable.md
+temp
+en-content.json
+zh-content.json
